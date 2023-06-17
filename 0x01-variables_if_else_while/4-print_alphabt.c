@@ -5,20 +5,20 @@
  */
 int main(void)
 {
-	char start = 'a', stop = 'z';
+	char first = 'a', last = 'z';
 
-	while (start <= stop)
+	while (first <= last)
 	{
-		if (start != 'e')
+		if (first == 'a' + 4)
 		{
-			start++;
-		} else if (start != 'q')
+			first++;
+		} else if (first == 'a' +  16)
 		{
-			start++;
+			first++;
 		} else
 		{
-			putchar(start);
-			start++;
+			putchar(first);
+			first++;
 		}
 	}
 	putchar('\n');
