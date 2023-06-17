@@ -5,15 +5,11 @@
  */
 int main(void)
 {
-	int first = 0, last = 9;
+	int first = 0;
 
-	while (first <= last)
+	while (first <= 9)
 	{
-		/**
-		 *this code convert first to char and
-		 *convert to number printable with putchar
-		 */
-		putchar((char)first + '0');
+		putchar(first);
 		start++;
 	}
 	putchar('\n');
