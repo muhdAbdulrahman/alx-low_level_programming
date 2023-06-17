@@ -7,7 +7,7 @@ int main(void)
 {
 	char first = 'a', last = 'z';
 
-	while (last <= first)
+	while (first <= last)
 	{
 		putchar(last);
 		last--;
