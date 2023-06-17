@@ -5,18 +5,18 @@
  */
 int main(void)
 {
-	int first = 0;
+	int i = 0;
 
-	while (first < 16)
+	while (i < 16)
 	{
-		if (first < 10)
+		if (i < 10)
 		{
-			putchar(first + '0');
-			first++;
+			putchar(i + '0');
+			i++;
 		} else
 		{
-			putchar(first + 'a'));
-			first++;
+			putchar('a' + (i - 10));
+			i++;
 		}
 	}
 	putchar('\n');
