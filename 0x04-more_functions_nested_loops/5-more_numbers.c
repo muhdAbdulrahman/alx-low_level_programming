@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * more_numbers
- * 
+ * more_numbers - nmbr fct
+ * Muhammad A.
  * Return: no return
  */
 
